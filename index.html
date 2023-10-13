@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Weather You Like it or Not</h1>
+    <div id="container">
+        <div id="search">
+            <label for="searchInput">Find Weather For Your Location:</label>
+            <input id="searchInput" type="text" placeholder="Search">
+            <button id="searchBttn">Let's Go Find Out</button>
+            <select id="tempSystemToggle">
+                <option value="metric">Celsius</option>
+                <option value="imperial">Fahrenheit</option>
+            </select>
+        </div>
+        <div id="weatherInfo"></div>
+        <img id="weatherImage" src="https://sa1s3optim.patientpop.com/assets/images/provider/photos/2342986.png" alt="Cold Weather Image">
+        <img id="warmImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO66xCAia7GhxWQvJnOAn08sNeZpiXZTuxnA&usqp=CAU" alt="Hot Weather Image">
+        <div id="homeArea"></div>
+        <button id="homeAreaBttn">Save as Home</button>
+
+        <script src="app.js"></script>
+    </div>
+</body>
+</html>

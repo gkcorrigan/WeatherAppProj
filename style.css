@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(142, 195, 149);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 15;
+    color: rgb(71, 61, 38);
+}
+
+#weatherImage,
+#warmImage {
+    display: none;
+}
